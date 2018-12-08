@@ -20,7 +20,7 @@ var words = [
     "Yusuf Kama"
 ];
 
-var currentWord = "";
+var currentWord;
 
 function onGuess(){
     inquirer.prompt({
